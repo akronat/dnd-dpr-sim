@@ -1,0 +1,76 @@
+
+fighter GA GWF@1: 3+PB =atk> CM#(1d12 @rrlte: 2) + 3
+fighter GA GWF@4: 4+PB =atk> CM#(1d12 @rrlte: 2) + 4
+fighter GA GWF@5: 2#(4+PB =atk> CM#(1d12 @rrlte: 2) + 4)
+fighter GA GWF@6: 2#(5+PB =atk> CM#(1d12 @rrlte: 2) + 5)
+fighter GA GWF@11: 3#(5+PB =atk> CM#(1d12 @rrlte: 2) + 5)
+fighter GA GWF@20: 4#(5+PB =atk> CM#(1d12 @rrlte: 2) + 5)
+
+fighter GA GWF GWM@1: 3+PB-5 =atk> CM#(1d12 @rrlte: 2) + 13
+fighter GA GWF GWM@4: 4+PB-5 =atk> CM#(1d12 @rrlte: 2) + 14
+fighter GA GWF GWM@5: 2#(4+PB-5 =atk> CM#(1d12 @rrlte: 2) + 14)
+fighter GA GWF GWM@6: 2#(5+PB-5 =atk> CM#(1d12 @rrlte: 2) + 15)
+fighter GA GWF GWM@11: 3#(5+PB-5 =atk> CM#(1d12 @rrlte: 2) + 15)
+fighter GA GWF GWM@20: 4#(5+PB-5 =atk> CM#(1d12 @rrlte: 2) + 15)
+
+fighter GS GWF@1: 3+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 3
+fighter GS GWF@4: 4+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 4
+fighter GS GWF@5: 2#(4+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 4)
+fighter GS GWF@6: 2#(5+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 5)
+fighter GS GWF@11: 3#(5+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 5)
+fighter GS GWF@20: 4#(5+PB =atk> CM#(2#(1d6 @rrlte: 2)) + 5)
+
+fighter GS GWF GWM@1: 3+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 13
+fighter GS GWF GWM@4: 4+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 14
+fighter GS GWF GWM@5: 2#(4+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 14)
+fighter GS GWF GWM@6: 2#(5+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 15)
+fighter GS GWF GWM@11: 3#(5+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 15)
+fighter GS GWF GWM@20: 4#(5+PB-5 =atk> CM#(2#(1d6 @rrlte: 2)) + 15)
+
+fighter hCB CE Arc@1: 2#(3+2+PB =atk> 1D6+3)
+fighter hCB CE Arc@4: 2#(4+2+PB =atk> 1D6+4)
+fighter hCB CE Arc@5: 3#(4+2+PB =atk> 1D6+4)
+fighter hCB CE Arc@6: 3#(5+2+PB =atk> 1D6+5)
+fighter hCB CE Arc@11: 4#(5+2+PB =atk> 1D6+5)
+fighter hCB CE Arc@20: 5#(5+2+PB =atk> 1D6+5)
+
+fighter hCB CE Arc SS@4: 2#(3+2+PB-5 =atk> 1D6+13)
+fighter hCB CE Arc SS@5: 3#(3+2+PB-5 =atk> 1D6+13)
+fighter hCB CE Arc SS@6: 3#(4+2+PB-5 =atk> 1D6+14)
+fighter hCB CE Arc SS@8: 3#(5+2+PB-5 =atk> 1D6+15)
+fighter hCB CE Arc SS@11: 4#(5+2+PB-5 =atk> 1D6+15)
+fighter hCB CE Arc SS@20: 5#(5+2+PB-5 =atk> 1D6+15)
+
+barb GWM@1: 3+PB-5 =atk> 1D10+3+2+10
+barb Rkls GWM@2: 3+PB-5 =atk:adv> 1D10+3+2+10
+barb Rkls GWM@4: 4+PB-5 =atk:adv> 1D10+4+2+10
+barb Rkls GWM@5: 2#(4+PB-5 =atk:adv> 1D10+4+2+10)
+barb Rkls GWM@8: 2#(5+PB-5 =atk:adv> 1D10+5+2+10)
+barb Rkls GWM@9: 2#(5+PB-5 =atk:adv> 1D10+5+3+10+CB#(1d10))
+barb Rkls GWM@13: 2#(5+PB-5 =atk:adv> 1D10+5+3+10+CB#(2d10))
+barb Rkls GWM@16: 2#(5+PB-5 =atk:adv> 1D10+5+4+10+CB#(2d10))
+barb Rkls GWM@17: 2#(5+PB-5 =atk:adv> 1D10+5+4+10+CB#(3d10))
+barb Rkls GWM@20: 2#(7+PB-5 =atk:adv> 1D10+7+4+10+CB#(3d10))
+
+barb Rkls PaM GWM@4: (3+PB-5 =atk:adv> 1D10+3+2+10) + (3+PB-5 =atk:adv> 1D4+3+2+10)
+barb Rkls PaM GWM@5: 2#(3+PB-5 =atk:adv> 1D10+3+2+10) + (3+PB-5 =atk:adv> 1D4+3+2+10)
+barb Rkls PaM GWM@8: 2#(4+PB-5 =atk:adv> 1D10+4+2+10) + (4+PB-5 =atk:adv> 1D4+4+2+10)
+barb Rkls PaM GWM@9: 2#(4+PB-5 =atk:adv> 1D10+4+3+10+CB#(1d10)) + (4+PB-5 =atk:adv> 1D4+4+3+10+CB#(1d10))
+barb Rkls PaM GWM@12: 2#(5+PB-5 =atk:adv> 1D10+5+3+10+CB#(1d10)) + (5+PB-5 =atk:adv> 1D4+5+3+10+CB#(1d10))
+barb Rkls PaM GWM@13: 2#(5+PB-5 =atk:adv> 1D10+5+3+10+CB#(2d10)) + (5+PB-5 =atk:adv> 1D4+5+3+10+CB#(2d10))
+barb Rkls PaM GWM@16: 2#(5+PB-5 =atk:adv> 1D10+5+4+10+CB#(2d10)) + (5+PB-5 =atk:adv> 1D4+5+4+10+CB#(2d10))
+barb Rkls PaM GWM@17: 2#(5+PB-5 =atk:adv> 1D10+5+4+10+CB#(3d10)) + (5+PB-5 =atk:adv> 1D4+5+4+10+CB#(3d10))
+barb Rkls PaM GWM@20: 2#(7+PB-5 =atk:adv> 1D10+7+4+10+CB#(3d10)) + (7+PB-5 =atk:adv> 1D4+7+4+10+CB#(3d10))
+
+sorlock EB AB Hx@2: 3+PB =atk> 1D10+1D6
+sorlock EB AB Hx@3: 3+PB =atk> 1D10+1D6+3
+sorlock EB AB Hx@5: 2#(3+PB =atk> 1D10+1D6+3)
+sorlock EB AB Hx@6: 2#(4+PB =atk> 1D10+1D6+4)
+sorlock EB AB Hx@10: 2#(5+PB =atk> 1D10+1D6+5)
+sorlock EB AB Hx@11: 3#(5+PB =atk> 1D10+1D6+5)
+
+sorlock EB AB Hx Qkn@5: 2#(2#(3+PB =atk> 1D10+1D6+3))
+sorlock EB AB Hx Qkn@6: 2#(2#(4+PB =atk> 1D10+1D6+4))
+sorlock EB AB Hx Qkn@10: 2#(2#(5+PB =atk> 1D10+1D6+5))
+sorlock EB AB Hx Qkn@11: 2#(3#(5+PB =atk> 1D10+1D6+5))
+sorlock EB AB Hx Qkn@17-20: 2#(4#(5+PB =atk> 1D10+1D6+5))
